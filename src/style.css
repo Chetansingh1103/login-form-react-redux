@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F8FAFC;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 612px;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-right: 48px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+    width: 444px;
+    height: 454px;
+}
+
+.login-heading{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.login-heading P{
+    margin-bottom: 10px;
+    color: #757575;
+    font-size: 14px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.input input{
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+    display: flex;
+    width: 352px;
+    padding: 0px 12px;
+    align-items: flex-start;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.login-box button{
+    color: white;
+    font-size: 16px;
+    margin-top: 12px;
+    display: flex;
+    width: 352px;
+    height: 45px;
+    padding: 9px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+}
+
+.login-box a{
+    text-decoration: none;
+    align-self: center;
+    margin-top: 20px;
+    color: #625BF7;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login-bottom p{
+    color: #333;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login-bottom a{
+    text-decoration: none;
+    color: #625BF7;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 6px;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+}
+
+.success{
+    color: green;
+    font-size: 15px;
+}
+
+
+
+
